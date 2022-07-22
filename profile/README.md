@@ -11,7 +11,27 @@ To ensure maximum transparency to all team members, any new feature, bug, enhanc
 Just because a particular issue falls outside of your typical work scope (e.g. Steve discovers client-side error with a form input) don't hesitate to create an issue for a teammate to resolve!  Even though this could feel rude to point out problems with someone else's work, being completely transparent will be hugely beneficial to the whole team in the long-run.
 
 ### Titles
-Issues titles should be adequately descriptive without being overly verbose.  A good issue title might something like "Track/lesson search functionality" and a bad one would be "Add track/lesson search bar by implementing ElasticSearch on related data models".  The second title gives far more info than is needed at a quick glance and it would make more sense to add the minutia to the issue description.
+
+Issues titles should be adequately descriptive without being overly verbose.  A good issue title might something like "Student Dashboard - video filtering: add search bar" and a bad one would be "Add track/lesson search bar by implementing ElasticSearch on related data models".  The second title gives far more info than is needed at a quick glance and it would make more sense to add the minutia to the issue description.
+
+#### Issue title convention
+
+#####{scope} - {specificity}: {problem}
+
+* **scope**
+   - user facing nature of the issue
+   - surface level
+   - *1.0x zoom* 
+* **specificity**
+   - a layer deeper than scope
+   - what portion of the scope is this related to?
+   - *3.0x zoom*
+* **problem**
+   - whats the problem?
+   - what do we want to accomplish? *(not how we'll do it)*
+* e.g. "Student Dashboard - sidebar: decrease width"
+* e.g. "Dashboards - activtiy feed: video activty 500 error"
+* e.g. "Student Dashboard - video filtering: add search bar"
 
 ### Descriptions
 At a minimum, descriptions should contain a checklist of action items that must be completed in order to resolve the issue.  How you decide to organize this is at the issue creators discretion, but in general if there are new files that need to be created or specific tasks that need to be completed, each of those should be outlined in a checkbox list.
