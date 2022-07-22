@@ -16,7 +16,7 @@ Issues titles should be adequately descriptive without being overly verbose.  A 
 
 #### Issue title convention
 
-#####{scope} - {specificity}: {problem}
+##### {scope} - {specificity}: {problem}
 
 * **scope**
    - user facing nature of the issue
